@@ -1,0 +1,1 @@
+web: bundle exec jekyll serve --source site --port $PORT --trace --unpublished
