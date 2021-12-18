@@ -1,0 +1,11 @@
+logo_image: /images/logo.svg
+menu__settings:
+  menu__items:
+    - title: Home
+      url: /
+    - title: Projects
+      url: /projects/
+    - title: NFTs
+      url: /nfts/
+    - title: About
+      url: /about/
