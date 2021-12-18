@@ -1,0 +1,8 @@
+I"J<p>This is a final project that was done a webware course with three other group members. <a href="https://github.com/madmadeline/Team14_finalProject" target="_blank" rel="noopener">Link to Github Repo</a></p>
+
+<p><strong>Description:</strong> A <a href="https://team14-finalproject.herokuapp.com/" target="_blank" rel="noopener">browser home page application</a> that has customizable boxes/categories that users can fill in to have bookmarks, notes, tasks, and images. The idea is that the user will open their browser and use this page to start their day/work/session. The user will be able to log in so that their content persists between sessions. This application is targeted at users who use their computers on a daily basis and would like a customizable web browsing experience. The application will make use of a database in MongoDB to store the homepage layout, input, preferences, etc.</p>
+
+<p><a href="https://youtu.be/u96wRCCX5-k" target="_blank" rel="noopener">Video Walkthrough</a></p>
+
+<p><img src="/uploads/screenshot-2021-12-17-223816.png" alt="" width="1279" height="715" /></p>
+:ET

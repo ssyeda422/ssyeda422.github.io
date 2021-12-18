@@ -1,0 +1,14 @@
+I"U<p>This app was built with two other group members as part of a final project for Mobile &amp; Ubiquitous Computing. We developed the application in Kotlin/Java, using Android studio to test functionality. </p>
+
+<p>The purpose of this app is to help groups of people living together with meal planning and grocery shopping.</p>
+
+<p><img src="/uploads/screenshot-1639761885.png" alt="" width="1080" height="1920" /></p>
+
+<p>One of the main features allows users to schedule meals for the week and select recipes for each scheduled meal. The user can add people/create a group for each scheduled meal. </p>
+
+<p><img src="/uploads/screenshot-1639761905.png" alt="" width="1080" height="1920" /></p>
+
+<p>Below is a basic structure of the entire app flow.</p>
+
+<p><img src="/uploads/screenshot-2021-12-18-000704.png" alt="" width="649" height="333" /></p>
+:ET
