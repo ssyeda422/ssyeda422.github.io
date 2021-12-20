@@ -6,23 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Small Business Digitization Services</title>
+  <title>Improving Fastly's HTTP Load Testing Tools</title>
   <meta name='description' content='Saniya' s current project work and portfolio'>
 
-  <link rel="canonical" href="/blog/small-business-digitization-services">
+  <link rel="canonical" href="/blog/loadtesting-mqp">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Small Business Digitization Services – Saniya's Portfolio">
-  <meta name="twitter:description" content="Small Business Digitization Services is an initiative launched by WPI’s Business School to help small business owners maintain a digital presence throughout the pandemic and beyond. WPI Students pair up with different clients to address their business needs - for example, updating a storefront, improving SEO, etc. 
+  <meta name="twitter:title" content="Improving Fastly's HTTP Load Testing Tools – Saniya's Portfolio">
+  <meta name="twitter:description" content="My senior capstone was a fourteen-week long project working with a Silicon Valley company partnered with WPI. As a team of three, we worked with the CDN company Fastly to develop an improved load testing tool to suit their needs and replicate specific scenarios with issues they were facing in production.
 ">
-  <meta name="twitter:image:src" content="/uploads/business-plan-cuate.png">
+  <meta name="twitter:image:src" content="/uploads/load-testing-graphic-e1549398083683.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Small Business Digitization Services – Saniya's Portfolio">
-  <meta property="og:description" content="Small Business Digitization Services is an initiative launched by WPI’s Business School to help small business owners maintain a digital presence throughout the pandemic and beyond. WPI Students pair up with different clients to address their business needs - for example, updating a storefront, improving SEO, etc. 
+  <meta property="og:title" content="Improving Fastly's HTTP Load Testing Tools – Saniya's Portfolio">
+  <meta property="og:description" content="My senior capstone was a fourteen-week long project working with a Silicon Valley company partnered with WPI. As a team of three, we worked with the CDN company Fastly to develop an improved load testing tool to suit their needs and replicate specific scenarios with issues they were facing in production.
 ">
-  <meta property="og:image" content="/uploads/business-plan-cuate.png">
+  <meta property="og:image" content="/uploads/load-testing-graphic-e1549398083683.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -134,7 +134,8 @@
 
         <div class="col col-6 col-d-12">
           <div class="post-image">
-            <img loading="lazy" src="/uploads/business-plan-cuate.png" alt="Small Business Digitization Services" />
+            <img loading="lazy" src="/uploads/load-testing-graphic-e1549398083683.png"
+              alt="Improving Fastly's HTTP Load Testing Tools" />
           </div>
         </div>
 
@@ -145,15 +146,15 @@
 
             <div class="post-tags">
 
-              <a href="/tag/digital services" class="post-tags__tag">Digital Services</a>
+              <a href="/tag/mqp" class="post-tags__tag">MQP</a>
 
-              <a href="/tag/business" class="post-tags__tag">Business</a>
+              <a href="/tag/http load testing" class="post-tags__tag">HTTP Load Testing</a>
 
             </div>
 
 
 
-            <h1 class="post__title">Small Business Digitization Services</h1>
+            <h1 class="post__title">Improving Fastly&#39;s HTTP Load Testing Tools</h1>
 
             <div class="post__meta">
               <div class="post__author-image">
@@ -162,7 +163,7 @@
 
               <div class="post__meta-bottom">
                 <div class="post__author">Saniya Syeda</div>
-                <time class="post__date" datetime="2021-09-01T22:45:50+00:00">01 Sep 2021</time>
+                <time class="post__date" datetime="2021-12-10T00:00:00+00:00">10 Dec 2021</time>
               </div>
             </div>
 
@@ -178,27 +179,39 @@
     <article class="post">
 
       <div class="post__content" data-cms-content-wrapper="/site/_layouts/post.html">
-        <p><a href="https://wp.wpi.edu/journal/articles/small-business-digitization/" target="_blank"
-            rel="noopener">Small Business Digitization Services</a> is an initiative launched by WPI’s Business School
-          to help small business owners maintain a digital presence throughout the pandemic and beyond. WPI Students
-          pair up with different clients to address their business needs - for example, updating a storefront, improving
-          SEO, etc. </p>
+        <p>My senior capstone was a fourteen-week long project working with a Silicon Valley company partnered with WPI.
+          As a team of three, we worked with the CDN company Fastly to develop an improved load testing tool to suit
+          their needs and replicate specific scenarios with issues they were facing in production.</p>
 
-        <p>So far I have worked on a few different projects. One is with a client, Judy Faust, who is promoting her
-          local musician friend John Mariano’s <a href="https://johnfrancismariano.bandcamp.com/">music</a>. Together we
-          have worked on monthly campaigns/newsletters and discussed various strategies such as YouTube performance
-          livestreams for attracting an online audience.</p>
+        <p>As part of our project, we extended an open-source load testing tool K6 to include a force HTTP/1 feature,
+          which we were eventually able to merge into the official project! This was definitely valuable getting to see
+          the entire approval process and what is generally required for complex tools like these.</p>
 
-        <p><img src="/uploads/screenshot-2021-12-19-163910.png" alt="" width="670" height="820" /></p>
+        <p><img src="/uploads/screenshot-2021-12-17-213636.png" alt="" width="883" height="511" /></p>
 
-        <p>Another e-commerce project I have worked on with two other students is helping a local business, <a
-            href="https://moonwaterelixirs.com/" target="_blank" rel="noopener">Moonwater Elixirs</a>. Our client wanted
-          to evaluate/update her Shopify website as well as improve SEO for different products. We as a team helped
-          refurbish different aspects, such as navigation, product pages, review sections, etc.</p>
+        <p>After finding K6, we also integrated new programs/features into a Fastly-specific wrapper program to address
+          different limitations of their old load-testing tool - for example, generating TLS handshakes with the tool
+          TLS-Perf, and creating secure connections to remote hosts via bastions.</p>
 
-        <p><img src="/uploads/screenshot-13.png" alt="" width="1881" height="916" /></p>
+        <p>One job I focused on was writing a program to generate load against Fastly’s target server via idle TCP
+          connections. There were various aspects of this task that were previously unfamiliar to me - using GoLang for
+          the first time, its vast package library (particularly the network I/O package), and concurrency with
+          goroutines.</p>
 
-        <p><img src="/uploads/screenshot-14.png" alt="" width="1895" height="926" /></p>
+        <p><img src="/uploads/screenshot-2021-12-17-215737.png" alt="" width="1318" height="748" /></p>
+
+        <p>Although working through these issues involved a slight learning curve at first, I got a lot of guidance and
+          advise from our Fastly mentors, and by the end I definitely felt I had a solid grasp of the program! I also
+          got additional experience from problems that were uncovered in the process - for example, when we faced an
+          issue with insufficient file descriptors, I had the opportunity to learn about the whole concept of ephemeral
+          ports and accessing network interfaces, which I didn’t know much about previously.</p>
+
+        <p>At the end of the project, our project sponsor helped us actually test the program against Fastly’s servers
+          to replicate those original production scenarios, and we got to see some really interesting output via Grafana
+          network dashboards as seen below. It was really cool to see our work get integrated into Fastly’s software
+          stack and prove useful for them in replicating various production scenarios!</p>
+
+        <p><img src="/uploads/screenshot-2021-12-17-214434-1.png" alt="" width="1195" height="613" /></p>
 
       </div>
 
@@ -209,25 +222,25 @@
         <ul class="share__list list-reset">
           <li class="share__item">
             <a class="share__link share__twitter"
-              href="https://twitter.com/intent/tweet?text=Small%20Business%20Digitization%20Services&url=/blog/small-business-digitization-services"
+              href="https://twitter.com/intent/tweet?text=Improving%20Fastly's%20HTTP%20Load%20Testing%20Tools&url=/blog/loadtesting-mqp"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
               title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
           </li>
           <li class="share__item">
             <a class="share__link share__facebook"
-              href="https://www.facebook.com/sharer/sharer.php?u=/blog/small-business-digitization-services"
+              href="https://www.facebook.com/sharer/sharer.php?u=/blog/loadtesting-mqp"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
               title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
           </li>
           <li class="share__item">
             <a class="share__link share__pinterest"
-              href="http://pinterest.com/pin/create/button/?url=/blog/small-business-digitization-services&amp;media=/uploads/business-plan-cuate.png&amp;description=Small%20Business%20Digitization%20Services"
+              href="http://pinterest.com/pin/create/button/?url=/blog/loadtesting-mqp&amp;media=/uploads/load-testing-graphic-e1549398083683.png&amp;description=Improving%20Fastly's%20HTTP%20Load%20Testing%20Tools"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
               title="Share on Pinterest" rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
           </li>
           <li class="share__item">
             <a class="share__link share__linkedin"
-              href="https://www.linkedin.com/shareArticle?mini=true&url=/blog/small-business-digitization-services&title=Small%20Business%20Digitization%20Services&summary=&source=Vonge"
+              href="https://www.linkedin.com/shareArticle?mini=true&url=/blog/loadtesting-mqp&title=Improving%20Fastly's%20HTTP%20Load%20Testing%20Tools&summary=&source=Vonge"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
               title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
           </li>
@@ -243,28 +256,18 @@
       <div class="col col-10 col-d-12 push-d-0 push-1">
         <div class="post__navigation animate">
 
-          <a class="post__prev" href="/blog/virtual-tour">
+          <a class="post__prev" href="/blog/small-business-digitization-services">
             <div class="prev__image">
-              <img loading="lazy" src="/uploads/u7a0122.jpg" alt="Small Business Digitization Services">
+              <img loading="lazy" src="/uploads/business-plan-cuate.png"
+                alt="Improving Fastly's HTTP Load Testing Tools">
             </div>
             <div class="prev__box">
               <span class="post__nav post__nav__prev">Prev post</span>
-              <h2 class="post__nav__title">Developing a Virtual Tour for the Santa Elena Reserve</h2>
+              <h2 class="post__nav__title">Small Business Digitization Services</h2>
             </div>
           </a>
 
 
-
-          <a class="post__next" href="/blog/loadtesting-mqp">
-            <div class="next__box">
-              <span class="post__nav post__nav__next">Next post</span>
-              <h2 class="post__nav__title">Improving Fastly's HTTP Load Testing Tools</h2>
-            </div>
-            <div class="next__image">
-              <img loading="lazy" src="/uploads/load-testing-graphic-e1549398083683.png"
-                alt="Small Business Digitization Services">
-            </div>
-          </a>
 
         </div>
       </div>
@@ -290,8 +293,8 @@
 
 
 
-                  <a href="/tags#Digital Services" class="section__link related-tag">See all<span> Digital
-                      Services</span> <i class="ion ion-md-arrow-forward"></i></a>
+                  <a href="/tags#MQP" class="section__link related-tag">See all<span> MQP</span> <i
+                      class="ion ion-md-arrow-forward"></i></a>
 
 
 
