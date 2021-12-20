@@ -1,6 +1,6 @@
 <?php
 
-if($_POST["submit"]) {
+if($_POST["hidden"]) {
     $recipient="saniyazsyeda@outlook.com";
     $subject="Form to email message";
     $sender=$_POST["name"];
