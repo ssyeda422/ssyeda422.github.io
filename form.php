@@ -11,6 +11,6 @@ if($_POST["submit"]) {
 
     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
 
-//     $thankYou="<p>Thank you! Your message has been sent.</p>";
+    echo '<script>alert("Thank you! Your message has been sent.")</script>';
 }
 ?>
