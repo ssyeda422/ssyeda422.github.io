@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="saniyazsyeda@outlook.com";
+    $subject="Form to email message";
+    $sender=$_POST["name"];
+    $senderEmail=$_POST["_replyto"];
+    $message=$_POST["text"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -345,7 +362,7 @@
 
     <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
           <!-- begin contact -->
-
+<?=$thankYou ?>
 <div class="c-contact-form" id="contact">
   <div class="container">
     <div class="row">
@@ -357,7 +374,7 @@
             <p class="c-contact-form__contact-description">Fill out the form to send me an email!</p>
           </div>
           <form class="c-contact-form__form"
-            action="mailto:ssyeda@wpi.edu""
+            action="index.php"
             method="POST" enctype="text/plain">
             <input type="hidden" name="_to">
             <div class="c-contact-form__form-group">
@@ -375,7 +392,7 @@
                 required></textarea>
             </div>
             <div class="c-contact-form__form-group c-contact-form__form-group--button">
-              <button class="c-button c-button--primary c-button--large" type="submit">Send now</button>
+              <button class="c-button c-button--primary c-button--large" type="submit" name="submit">Send now</button>
             </div>
           </form>
         </div>
