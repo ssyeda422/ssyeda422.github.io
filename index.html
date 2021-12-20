@@ -1,20 +1,3 @@
-<?php
-
-if($_POST["submit"]) {
-    $recipient="saniyazsyeda@outlook.com";
-    $subject="Form to email message";
-    $sender=$_POST["name"];
-    $senderEmail=$_POST["_replyto"];
-    $message=$_POST["text"];
-
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -362,7 +345,6 @@ if($_POST["submit"]) {
 
     <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
           <!-- begin contact -->
-<?=$thankYou ?>
 <div class="c-contact-form" id="contact">
   <div class="container">
     <div class="row">
@@ -374,7 +356,7 @@ if($_POST["submit"]) {
             <p class="c-contact-form__contact-description">Fill out the form to send me an email!</p>
           </div>
           <form class="c-contact-form__form"
-            action="index.php"
+            action="/form.php"
             method="POST" enctype="text/plain">
             <input type="hidden" name="_to">
             <div class="c-contact-form__form-group">
