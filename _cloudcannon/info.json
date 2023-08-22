@@ -88,7 +88,7 @@
                     },
                     {
                         "_bookshop_name": "content",
-                        "content_html": "<p>I am a senior undergraduate studying Computer Science at Worcester Polytechnic Institute. Right now my aim is to continue with my education as part of WPI's combined BS/MS program so I can hopefully earn my Master's by Fall 2022!</p><p>I've had experience in different areas throughout my studies, but my main research interests are in digital medicine/healthcare and human-computer interaction.</p><p>Career-wise, I've worked mostly with various enterprise applications and full-stack development/design using a few different technologies - Angular, React, NodeJS, Java/SpringBoot, etc. Recently I've also worked extensivly with GoLang, specifically with its network/HTTP features for load testing.</p><p>On the side, I also really enjoy making artwork and designs, which you can check out on my <a href=\"/artnfts/\">Art &amp; NFTs page!</a></p>"
+                        "content_html": "<p>I am a senior undergraduate studying Computer Science at Worcester Polytechnic Institute. Right now my aim is to continue with my education as part of WPI's combined BS/MS program so I can hopefully earn my Master's by Fall 2022!</p><p>I've had experience in different areas throughout my studies, but my main research interests are in digital medicine/healthcare and human-computer interaction.</p><p>Career-wise, I've worked mostly with various enterprise applications and full-stack development/design using a few different technologies - Angular, React, NodeJS, Java/SpringBoot, etc. Recently I've also worked extensivly with GoLang, specifically with its network/HTTP features for load testing.</p><p>On the side, I also really enjoy making artwork and designs, which you can check out on my <a href=\"/art/\">Art &amp;  page!</a></p>"
                     }
                 ],
                 "slug": "about",
@@ -96,19 +96,19 @@
                 "tags": []
             },
             {
-                "path": "collections/_pages/artnfts.html",
-                "url": "/artnfts/",
+                "path": "collections/_pages/art.html",
+                "url": "/art/",
                 "collection": "pages",
-                "id": "/artnfts",
+                "id": "/art",
                 "draft": false,
                 "categories": [],
                 "layout": "default",
-                "title": "Art & NFTs",
+                "title": "Art & ",
                 "content_blocks": [
                     {
                         "_bookshop_name": "page-heading",
-                        "title": "My Art & NFTs",
-                        "description": "Below  is a collection of my art and NFTs that are currently listed on <a href=\"https://www.redbubble.com/people/saniyasyeda/explore?asc=u&page=1&sortOrder=recent\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Redbubble</u></a> and <a href=\"https://opensea.io/ZubeirsNFTS\" target=\"_blank\" rel=\"noopener noreferrer\"><u>OpenSea!</u></a>"
+                        "title": "My Art & ",
+                        "description": "Below  is a collection of my art and  that are currently listed on <a href=\"https://www.redbubble.com/people/saniyasyeda/explore?asc=u&page=1&sortOrder=recent\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Redbubble</u></a> and <a href=\"https://opensea.io/Zubeirs\" target=\"_blank\" rel=\"noopener noreferrer\"><u>OpenSea!</u></a>"
                     },
                     {
                         "_bookshop_name": "projects-list",
@@ -119,7 +119,7 @@
                         "content_html": "<div style=\"text-align:center;font-size:14px;font-style:italic;margin:25px auto\"><br /><strong>As seen on:</strong><br /><a target=\"_blank\" rel=\"noopener\" href=\"https://nftcalendar.io/\"><img width=\"170px\" height=\"170px\" src=\"https://ucf1b3add1b368fd17564b3a6860.previews.dropboxusercontent.com/p/thumb/ABaV0Mw1Wdp4U9rOud7kvP4aL-1JjHDxSBkNo1fbb4rRezTLRQIvGnC79_HNuzeHw2A0D0TMd1Cca9IFDjAUu63T5ItWp6sfAGMg591j5wBQbulPixyevnz85O15KsLCpaf1P4l3s5g9qNPBZVMFtQKbDRl73mmNMykmZT2MHI-vvhfMB3N6Ipzhp37mbZ4y9SbqHuuc4-mfpAytCb_-uy_RjgHbHyNZh-2F8lNftuy_kjYOORGo0Wx6WcwRrPDhR_BGwQuFHQBO890JUeyBvOC06WOE3LFLgCm4qBD87N4JocuXFIm0Yb2P1kFy9o_MoJI72ICycBuIqxI5btqedaKHbT5bUiT6bRlkDz91D9tySEZb_NYBMWaQ4WjhglvTtzo/p.png\" /> </a></div>"
                     }
                 ],
-                "slug": "artnfts",
+                "slug": "art",
                 "ext": ".html",
                 "tags": []
             },
@@ -173,7 +173,7 @@
                     {
                         "_bookshop_name": "hero",
                         "title": "Hi! I'm Saniya Syeda",
-                        "description_html": "<p>I am an undergraduate student at Worcester Polytechnic Institute studying Computer Science. On this site you can check out the main projects and research I've completed as a student, as well as some of my artwork/NFTs!</p>",
+                        "description_html": "<p>I am an undergraduate student at Worcester Polytechnic Institute studying Computer Science. On this site you can check out the main projects and research I've completed as a student, as well as some of my artwork/!</p>",
                         "image": "/uploads/img-5850.jpeg",
                         "image_alt": "Saniya's avatar",
                         "cta_button": "Contact",
@@ -1445,7 +1445,7 @@
         "/site/uploads/business-plan-cuate.png": "8055aca043dc3cafd78bd2b31fb31d00",
         "/site/uploads/screenshot-13.png": "71833344dff5b2686b736dd76d6910c7",
         "/site/uploads/screenshot-14.png": "eba8b2b587585c2dc1bffa914421b4f8",
-        "/site/collections/_pages/artnfts.html": "a50e860f67903577d68a794cb2b3d601",
+        "/site/collections/_pages/art.html": "a50e860f67903577d68a794cb2b3d601",
         "/site/collections/_posts/2021-01-01-code-crafters.markdown": "50c9ff1d8ed918d5306f47d688584b31",
         "/site/uploads/picofme.jpg": "1fa16fa465b1895c2c9be0e15be756b9",
         "/site/uploads/fullsizerender.jpg": "6fc5081069a4d3fa9d3537c7d42f4255"
