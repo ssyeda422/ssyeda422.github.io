@@ -180,7 +180,7 @@
                     {
                         "_bookshop_name": "blog-section",
                         "title": "Recent Projects",
-                        "description_html": "<p>Below is some of the recent project work I've completed as an undergraduate at WPI!</p>",
+                        "description_html": "<p>Below is some of the recent project work I've completed throughout my time at WPI!</p>",
                         "link_url": "/projects/",
                         "show_posts": true
                     },
@@ -209,7 +209,7 @@
                     {
                         "_bookshop_name": "page-heading",
                         "title": "My Projects",
-                        "description": "Below is a compilation of all the different project work I've done over the course of my undergraduate career!"
+                        "description": "Below is a compilation of all the different project work I've done over the course of my academic career!"
                     },
                     {
                         "_bookshop_name": "posts-list",
