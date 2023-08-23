@@ -629,7 +629,7 @@
                         }
                     ]
                 },
-                "copyright_text_html": "<p>2021 &copy; <a href=\"/\">Vonge</a>. Template by <a href=\"https://cloudcannon.com/\">CloudCannon</a>.</p>"
+                "copyright_text_html": "<p></p>"
             },
             "author": {
                 "author_name": "Saniya Syeda",
