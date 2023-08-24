@@ -4508,20 +4508,17 @@ bookshop {
     }
 }
 
-@media all,
-bookshop {
-    .c-hero__title {
-        margin-bottom: 20px;
-        font-size: 58px;
-        overflow: hidden;
-        /* Ensures the content is not revealed until the animation */
-        border-right: .15em #1495a7;
-        color: #f5f5f5;
-        margin: 0 auto;
-        animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
-    }
+.c-hero__title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em #1495a7;
+    color: #f5f5f5;
+    margin: 0 auto;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
