@@ -4513,10 +4513,11 @@ bookshop {
     .c-hero__title {
         margin-bottom: 20px;
         font-size: 58px;
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: .15em #1495a7;
         color: #f5f5f5;
-        white-space: nowrap;
         margin: 0 auto;
-        letter-spacing: .15em;
         animation:
             typing 3.5s steps(40, end),
             blink-caret .75s step-end infinite;
@@ -4543,7 +4544,7 @@ bookshop {
     }
 
     50% {
-        border-color: orange;
+        border-color: #1495a7;
     }
 }
 
@@ -4996,7 +4997,7 @@ bookshop {
     }
 
     .article__title a:hover {
-        color: #003687r; 
+        color: #003687r;
     }
 }
 
