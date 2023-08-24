@@ -4518,7 +4518,7 @@ bookshop {
     color: #f5f5f5;
     animation: typing;
     animation-duration: 2.0s;
-    animation-timing-function: steps(40, end);
+    animation-timing-function: steps(20, end);
     animation-fill-mode: forwards;
 }
 
