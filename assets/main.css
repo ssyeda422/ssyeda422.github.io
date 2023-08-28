@@ -4508,6 +4508,10 @@ bookshop {
     }
 }
 
+.typing_container {
+    display: inline-block;
+}
+
 .c-hero__title {
     margin-bottom: 20px;
     font-size: 50px;
@@ -4516,10 +4520,7 @@ bookshop {
     width: 0;
     border-right: .15em #1495a7;
     color: #f5f5f5;
-    animation: typing;
-    animation-duration: 2.0s;
-    animation-timing-function: steps(20, end);
-    animation-fill-mode: forwards;
+    animation: typing 1.5s steps(20, end) forwards;
 }
 
 /* The typing effect */
